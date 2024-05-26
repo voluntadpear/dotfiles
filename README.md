@@ -10,3 +10,4 @@ Run `install.sh`.
 
 * https://driesvints.com/blog/getting-started-with-dotfiles/
 * https://www.webpro.nl/articles/getting-started-with-dotfiles
+* https://www.daytona.io/dotfiles/ultimate-guide-to-dotfiles
