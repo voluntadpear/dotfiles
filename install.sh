@@ -10,7 +10,7 @@
 dotfiledir="${HOME}/.dotfiles"
 
 # list of files/folders to symlink in ${homedir}
-files=(.zshrc .zprofile .profile)
+files=(.zshrc .zprofile .profile .gitconfig)
 
 # change to the dotfiles directory
 echo "Changing to the ${dotfiledir} directory"
@@ -39,4 +39,3 @@ brew bundle --file="${dotfiledir}/Brewfile"
 
 echo "Installing nvm..."
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash
-
