@@ -63,3 +63,6 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash
 
 echo "Applying VSCode settings..."
 ln -sf "${dotfiledir}/vscode-settings.json" "${HOME}/Library/Application Support/Code/User/settings.json"
+
+echo "Applying macOS system settings..."
+${dotfiledir}/macos.sh
